@@ -1,0 +1,54 @@
+#header ul {
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+}
+#header li{
+	float:left;
+	margin: 0px;
+	padding:  0px;
+}
+#header li a{
+	display:block;
+	width:150px;
+	background-color: pink;
+	margin-right: 5px;
+	text-align: center;
+}
+
+.col-1  {width:8.33%; }
+.col-2  {width:16.66%;}
+.col-3  {width:24.99%;}
+.col-4  {width:33.32%;}
+.col-5  {width:41.65%;}
+
+.col-6  {width:49.98%;
+border:1px solid red;
+padding:20px;}
+
+.col-7  {width:58.31%;}
+.col-8  {width:66.64%;}
+.col-9  {width:74.97%;}
+.col-10 {width:83.3%; }
+.col-11 {width:91.63%;}
+.col-12 {width:100%;  }
+
+.row{
+
+	display:inline-flex;
+	width:100%;
+	border:1px solid red;
+}
+body{
+	background-image:url('wallpaper.jpg');
+	background-size:100%;
+
+}
+.center{
+	position: center;
+	padding:20px;
+	text-align: center;
+}
+.map{
+	width:100%;
+}
